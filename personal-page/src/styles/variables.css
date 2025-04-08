@@ -1,0 +1,43 @@
+:root {
+    /* Cores */
+    --primary-color: #2b6cb0;
+    --primary-hover: #2c5282;
+    --secondary-color: #e53e3e;
+    --accent-color: #f6ad55;
+    --text-color: #2d3748;
+    --text-light: #f7fafc;
+    --background: #f7fafc;
+    --gray-light: #edf2f7;
+    --gray-medium: #e2e8f0;
+    
+    /* Fontes */
+    --font-heading: 'Montserrat', system-ui, sans-serif;
+    --font-body: 'Open Sans', Arial, sans-serif;
+    
+    /* Espaçamentos */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    
+    /* Bordas */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    
+    /* Sombras */
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text-color: #f7fafc;
+      --text-light: #2d3748;
+      --background: #1a202c;
+      --gray-light: #2d3748;
+      --gray-medium: #4a5568;
+    }
+  }
